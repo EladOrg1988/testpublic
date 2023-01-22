@@ -1,8 +1,6 @@
 pipeline {
 
-  agent {
-    label 'centos'
-  }
+
   options {
     timeout(time: 12, unit: 'MINUTES')
   }
